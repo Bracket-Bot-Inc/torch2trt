@@ -44,4 +44,9 @@ setup(
     ext_package='torch2trt',
     ext_modules=ext_modules,
     cmdclass=cmdclass,
+    install_requires=[
+        'torch',
+        'numpy',
+        'packaging',
+    ],
 )
